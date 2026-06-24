@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Replit internal
+.replit
+.replit-artifact/
+replit.nix
+.local/
+.agents/
+
+# Lock file (optional — keep if you want reproducible installs)
+# pnpm-lock.yaml
